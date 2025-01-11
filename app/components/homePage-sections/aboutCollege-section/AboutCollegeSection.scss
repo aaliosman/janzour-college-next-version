@@ -1,0 +1,156 @@
+.about-college-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  @media screen and (max-width: 768px) {
+    gap: 20px;
+  }
+
+  .about-college-head {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    @media screen and (max-width: 768px) {
+      width: 100%;
+    }
+
+    .about-title {
+      font-family: Almarai;
+      direction: rtl;
+      font-size: 98px;
+      font-weight: 700;
+      line-height: 127.4px;
+      word-spacing: normal;
+      @media screen and (max-width: 768px) {
+        font-size: 20px;
+      }
+
+      span {
+        color: #52a0bb;
+        direction: rtl;
+        margin-left: 10px;
+      }
+    }
+
+    .about-college-btn {
+      width: 183px;
+      height: 56px;
+      padding: 16px 32px 16px 32px;
+      gap: 16px;
+      border-radius: 100px;
+      font-family: Almarai;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 34px;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #ffffff;
+      background-color: #1b6485;
+      @media screen and (max-width: 768px) {
+        width: 130px;
+        height: 40px;
+        font-size: 12px;
+        padding: 5px 10px 5px 10px;
+      }
+    }
+  }
+
+  .about-college-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    gap: 32px;
+    @media screen and (max-width: 1200px) {
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+    @media screen and (max-width: 768px) {
+      justify-content: center;
+    }
+
+    .about-text {
+      width: 100%;
+      max-width: 512px;
+      font-family: Almarai;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 34px;
+      text-align: right;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+      @media screen and (max-width: 768px) {
+        height: auto;
+        text-align: center;
+        max-width: none;
+        font-size: 16px;
+      }
+      @media (min-width: 769px) and (max-width: 1024px) {
+        max-width: 412px;
+      }
+    }
+
+    .about-img-text {
+      width: 100%;
+      max-width: 512px;
+      height: 619px;
+      font-family: Almarai;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 34px;
+      text-align: right;
+      display: flex;
+      gap: 32px;
+      flex-direction: column;
+      @media screen and (max-width: 768px) {
+        height: auto;
+        max-width: none;
+        font-size: 16px;
+        line-height: 27.2px;
+      }
+      @media (min-width: 760px) and (max-width: 1024px) {
+        max-width: 412px;
+      }
+
+      .about-img-text-img {
+        width: 100%;
+        max-width: 512px;
+        border-radius: 8px;
+        height: 293.5px !important;
+
+        @media (min-width: 768px) and (max-width: 1024px) {
+          max-width: 412px;
+        }
+      }
+    }
+
+    .about-section-img {
+      width: 100%;
+      max-width: 512px;
+      height: 619px;
+      @media screen and (max-width: 760px) {
+        height: auto;
+      }
+      @media (min-width: 760px) and (max-width: 1024px) {
+        max-width: 412px;
+      }
+
+      img {
+        width: 100%;
+        max-width: 512px;
+        height: 619px;
+        object-fit: cover;
+        border-radius: 8px;
+        @media (min-width: 760px) and (max-width: 1024px) {
+          max-width: 412px;
+        }
+      }
+    }
+  }
+}

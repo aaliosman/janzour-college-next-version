@@ -1,0 +1,346 @@
+.general-department-main {
+  margin-top: 50px;
+  padding-left: 64px;
+  padding-right: 64px;
+  display: flex;
+  flex-direction: column;
+  margin-top: -30px;
+  gap: 84px;
+  @media screen and (max-width: 1024px) {
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-top: 0px;
+  }
+
+  // .general-department-header {
+  //   width: 100%;
+  //   height: 600px;
+  //   position: relative;
+  //   display: flex;
+  //   @media screen and (max-width: 1024px) {
+  //     height: 700px;
+  //   }
+  //   align-items: flex-end;
+  //   justify-content: flex-end;
+  //   .header-bg-img {
+  //     width: 100%;
+  //     height: auto;
+  //     object-fit: cover;
+  //     filter: brightness(0.5);
+  //   }
+
+  //   .general-department-header-content {
+  //     width: 60%;
+  //     height: 100%;
+  //     padding-right: 100px;
+  //     color: white;
+  //     display: flex;
+  //     flex-direction: column;
+  //     align-items: flex-end;
+  //     justify-content: center;
+  //     gap: 30px;
+  //     position: absolute;
+  //     background-color: transparent;
+  //     @media screen and (max-width: 1024px) {
+  //       width: 100%;
+  //       padding: 24px;
+  //     }
+
+  //     .title {
+  //       font-family: Almarai;
+  //       font-size: 60px;
+  //       font-weight: 700;
+  //       line-height: 78px;
+  //       text-align: right;
+  //       text-underline-position: from-font;
+  //       text-decoration-skip-ink: none;
+  //       @media screen and (max-width: 1024px) {
+  //         font-size: 30px;
+  //         font-weight: 700;
+  //         line-height: 56px;
+  //         text-align: right;
+  //       }
+  //       span {
+  //         color: #00bafe;
+  //       }
+  //     }
+
+  //     .department-summary {
+  //       font-family: Almarai;
+  //       font-size: 20px;
+  //       font-weight: 400;
+  //       line-height: 34px;
+  //       text-align: right;
+  //       direction: rtl;
+  //       @media screen and (max-width: 1024px) {
+  //         font-size: 18px;
+  //         font-weight: 400;
+  //         line-height: 30.6px;
+  //         text-align: right;
+  //       }
+  //     }
+
+  //     .header-content-info {
+  //       display: flex;
+  //       flex-direction: column;
+  //       gap: 12px;
+
+  //       .single-info {
+  //         display: flex;
+  //         gap: 16px;
+  //         flex-direction: row-reverse;
+  //         font-family: Almarai;
+  //         font-size: 20px;
+  //         font-weight: 700;
+  //         line-height: 34px;
+  //         text-align: right;
+
+  //         p {
+  //           direction: rtl;
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
+
+  // .department-goals {
+  //   display: flex;
+  //   justify-content: flex-end;
+  //   gap: 128px;
+  //   @media screen and (max-width: 525px) {
+  //     flex-direction: column-reverse;
+  //     justify-content: center;
+  //     align-items: center;
+  //   }
+  //   @media screen and (max-width: 768px) {
+  //     gap: 30px;
+  //   }
+
+  //   .downloads {
+  //     display: flex;
+  //     flex-direction: column;
+  //     gap: 32px;
+
+  //     .download-btn {
+  //       width: 300px;
+  //       height: 56px;
+  //       display: flex;
+  //       justify-content: flex-end;
+  //       align-items: center;
+  //       padding: 16px 24px 16px 24px;
+  //       gap: 16px;
+  //       border-radius: 100px;
+  //       background-color: #1b6485;
+  //       color: white;
+  //       span {
+  //         font-family: Almarai;
+  //         font-size: 18px;
+  //         font-weight: 400;
+  //         line-height: 30.6px;
+  //         text-align: left;
+  //       }
+  //     }
+  //   }
+
+  //   .goals {
+  //     display: flex;
+  //     flex-direction: column;
+  //     align-items: flex-end;
+  //     gap: 56px;
+  //     @media screen and (max-width: 768px) {
+  //       gap: 32px;
+  //     }
+
+  //     .title {
+  //       font-family: Almarai;
+  //       font-size: 64px;
+  //       font-weight: 700;
+  //       line-height: 83.2px;
+  //       text-align: right;
+  //       direction: rtl;
+  //       @media screen and (max-width: 768px) {
+  //         font-size: 30px;
+  //         font-weight: 700;
+  //         line-height: 45px;
+  //         text-align: right;
+  //       }
+  //     }
+  //     ul {
+  //       display: flex;
+  //       flex-direction: column;
+  //       gap: 10px;
+  //       direction: rtl;
+  //       padding-right: 30px;
+
+  //       li {
+  //         font-family: Almarai;
+  //         font-size: 20px;
+  //         font-weight: 400;
+  //         line-height: 34px;
+  //         text-align: right;
+  //         list-style-type: disc;
+  //         @media screen and (max-width: 768px) {
+  //           font-size: 18px;
+  //           font-weight: 400;
+  //           line-height: 30.6px;
+  //           text-align: right;
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
+
+  // .faculty-members-section {
+  //   width: 100%;
+  //   display: flex;
+  //   justify-content: flex-end;
+  //   align-items: flex-start;
+  //   gap: 128px;
+  //   @media screen and (max-width: 1024px) {
+  //     flex-direction: column-reverse;
+  //     gap: 32px;
+  //   }
+
+  //   .faculty-members-text {
+  //     width: 450px;
+  //     display: flex;
+  //     flex-direction: column;
+  //     gap: 48px;
+  //     @media screen and (max-width: 1024px) {
+  //       width: 100%;
+  //     }
+
+  //     .title {
+  //       font-family: Almarai;
+  //       font-size: 50px;
+  //       font-weight: 700;
+  //       line-height: 65px;
+  //       text-align: right;
+  //       @media screen and (max-width: 768px) {
+  //         font-size: 30px;
+  //         font-weight: 700;
+  //         line-height: 45px;
+  //         text-align: right;
+  //       }
+  //     }
+
+  //     .faculty-members-summary {
+  //       direction: rtl;
+  //       font-family: Almarai;
+  //       font-size: 20px;
+  //       font-weight: 400;
+  //       line-height: 34px;
+  //       text-align: right;
+  //       @media screen and (max-width: 768px) {
+  //         font-family: Almarai;
+  //         font-size: 18px;
+  //         font-weight: 400;
+  //         line-height: 30.6px;
+  //         text-align: right;
+  //       }
+  //     }
+  //   }
+
+  //   .faculty-members-container {
+  //     width: 60%;
+  //     @media screen and (max-width: 1024px) {
+  //       width: 100%;
+  //     }
+  //     .swiper-slide {
+  //       flex-shrink: unset !important;
+  //       @media (min-width: 1024px) and (max-width: 1440px) {
+  //         margin-left: 70px !important;
+  //       }
+  //     }
+  //     .sigle-member {
+  //       min-width: 300px;
+  //       border: 1px solid #6d6d6d;
+  //       border-radius: 16px;
+  //       padding: 24px 10px 24px 10px;
+  //       display: flex;
+  //       justify-content: center;
+  //       flex-direction: column;
+  //       align-items: center;
+  //       gap: 24px;
+  //       @media screen and (max-width: 768px) {
+  //         width: 300px;
+  //       }
+  //       @media screen and (max-width: 412px) {
+  //         width: 90%;
+  //         margin: 0 auto;
+  //         justify-content: space-between;
+  //       }
+
+  //       .member-img-box {
+  //         width: 180px;
+  //         height: 180px;
+  //         border-radius: 100%;
+
+  //         img {
+  //           width: 100%;
+  //           height: 100%;
+  //           border-radius: 100%;
+  //           object-fit: cover;
+  //         }
+  //       }
+
+  //       .member-info {
+  //         display: flex;
+  //         align-items: center;
+  //         flex-direction: column;
+  //         gap: 12px;
+  //         .member-name {
+  //           font-family: Almarai;
+  //           font-size: 30px;
+  //           font-weight: 700;
+  //           line-height: 45px;
+  //           text-align: center;
+
+  //           .member-ranking {
+  //             color: #52a0bb;
+  //           }
+  //           @media screen and (max-width: 768px) {
+  //             font-size: 40px;
+  //           }
+  //         }
+
+  //         .member-text,
+  //         .member-rating {
+  //           font-family: Almarai;
+  //           font-size: 16px;
+  //           font-weight: 400;
+  //           line-height: 27.2px;
+  //           text-align: center;
+  //           text-underline-position: from-font;
+  //           text-decoration-skip-ink: none;
+  //         }
+  //       }
+  //     }
+
+  //     .swiper-nav-buttons {
+  //       width: 100%;
+  //       font-family: Almarai;
+  //       font-size: 20px;
+  //       font-weight: 700;
+  //       line-height: 34px;
+  //       display: flex;
+  //       justify-content: space-between;
+  //       margin-top: 30px;
+
+  //       .prev-btn {
+  //         display: flex;
+  //         justify-content: center;
+  //         align-items: center;
+  //         gap: 10px;
+  //       }
+  //       .next-btn {
+  //         display: flex;
+  //         justify-content: center;
+  //         align-items: center;
+  //         flex-direction: row-reverse;
+  //         gap: 10px;
+  //       }
+  //     }
+  //   }
+  // }
+}

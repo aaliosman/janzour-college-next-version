@@ -1,0 +1,197 @@
+.graduates_office_main {
+  margin-top: 50px;
+  padding-left: 64px;
+  padding-right: 64px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  gap: 32px;
+  @media screen and (max-width: 1024px) {
+    padding-left: 24px;
+    padding-right: 24px;
+    gap: 32px;
+  }
+
+  .graduates_office_head {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    .graduates_office_title {
+      p {
+        font-family: Almarai;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 65px;
+        text-align: right;
+        span {
+          color: #52a0bb;
+        }
+        @media screen and (max-width: 768px) {
+          font-size: 30px;
+          line-height: 45px;
+        }
+      }
+    }
+  }
+
+  .graduates_office_text {
+    font-family: Almarai;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30.6px;
+    text-align: right;
+    @media screen and (max-width: 768px) {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 30.6px;
+      text-align: right;
+    }
+  }
+
+  .missions {
+    width: 100%;
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    .missions_main {
+      width: 100%;
+      display: flex;
+      gap: 32px;
+      @media screen and (max-width: 1024px) {
+        flex-direction: column-reverse;
+      }
+      .missions_container {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        @media screen and (max-width: 1024px) {
+          width: 100%;
+        }
+
+        .missions_head {
+          display: flex;
+          flex-direction: column;
+          gap: 12px;
+          margin-bottom: 40px;
+          @media screen and (max-width: 768px) {
+            margin-bottom: 10px;
+          }
+          .mission_head_title {
+            font-family: Almarai;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 65px;
+            text-align: right;
+            @media screen and (max-width: 768px) {
+              font-size: 28px;
+              font-weight: 700;
+              line-height: 42px;
+              text-align: right;
+            }
+          }
+        }
+
+        .single_mission {
+          display: flex;
+          gap: 32px;
+          .single_mission_content {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+
+            .mission_title {
+              font-family: Almarai;
+              font-size: 20px;
+              font-weight: 700;
+              line-height: 34px;
+              text-align: right;
+
+              @media screen and (max-width: 768px) {
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 42px;
+                text-align: right;
+              }
+            }
+
+            .mission_about {
+              font-family: Almarai;
+              font-size: 18px;
+              font-weight: 400;
+              line-height: 30.6px;
+              text-align: right;
+              @media screen and (max-width: 768px) {
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 27.2px;
+                text-align: right;
+              }
+            }
+          }
+        }
+      }
+
+      .graduates_img_section {
+        max-width: 700px;
+        max-height: 850px;
+        @media screen and (max-width: 1024px) {
+          max-height: none;
+          width: 100%;
+
+          max-width: 100%;
+          margin: 0 auto;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        img {
+          width: 100%;
+          height: 100%;
+          @media screen and (max-width: 1024px) {
+            max-height: 500px;
+          }
+        }
+      }
+    }
+  }
+
+  .graduates_office_notes {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 26px 24px 26px 24px;
+    gap: 32px;
+    border-radius: 16px;
+    direction: rtl;
+    box-shadow: 0px 0px 6px 0px #39393933;
+
+    @media screen and (max-width: 768px) {
+      align-items: flex-start;
+    }
+    img {
+      width: 64px;
+      min-width: 64px;
+      height: 64px;
+    }
+    p {
+      font-family: Almarai;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 34px;
+      text-align: right;
+      @media screen and (max-width: 768px) {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30.6px;
+        text-align: right;
+      }
+    }
+  }
+}

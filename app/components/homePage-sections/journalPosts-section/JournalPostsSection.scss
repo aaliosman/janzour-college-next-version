@@ -1,0 +1,182 @@
+.journal-posts-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+  margin-top: 30px;
+
+  .journal-posts-head {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 32px;
+    @media screen and (max-width: 768px) {
+      width: 100%;
+    }
+
+    .journal-posts-head-content {
+      width: 100%;
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      align-items: center;
+      gap: 32px;
+      @media screen and (max-width: 768px) {
+        width: 100%;
+      }
+      @media screen and (max-width: 527px) {
+        flex-direction: column;
+        align-items: flex-end;
+      }
+
+      .journal-posts-title {
+        font-family: Almarai;
+        direction: rtl;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 65px;
+        text-align: right;
+
+        @media screen and (max-width: 768px) {
+          font-size: 30px;
+          line-height: 45px;
+        }
+
+        span {
+          color: #52a0bb;
+          direction: rtl;
+          margin-right: 10px;
+        }
+      }
+
+      .journal-posts-btn {
+        width: 223px;
+        height: 56px;
+        gap: 16px;
+        border-radius: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+        font-family: Almarai;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 34px;
+
+        background-color: #1b6485;
+        @media screen and (max-width: 768px) {
+          width: 200px;
+          height: 50px;
+          font-size: 20px;
+          padding: 5px 10px 5px 10px;
+        }
+      }
+    }
+
+    hr {
+      width: 100%;
+    }
+    .journal-posts-head-text {
+      width: 782px;
+      font-family: Almarai;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 27.2px;
+      text-align: right;
+      @media screen and (max-width: 768px) {
+        width: 100%;
+      }
+
+      p {
+        direction: rtl;
+      }
+    }
+  }
+
+  .journal-posts-content {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 32px;
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+    }
+
+    .journal-posts-content-info {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 48px;
+      @media screen and (max-width: 768px) {
+        width: 100%;
+      }
+      .title {
+        font-family: Almarai;
+        font-size: 40px;
+        font-weight: 700;
+        text-align: right;
+        @media screen and (max-width: 527px) {
+          font-family: Almarai;
+          font-size: 28px;
+          line-height: 42px;
+          text-align: right;
+        }
+      }
+
+      .journal-posts-content-text {
+        font-family: Almarai;
+        direction: rtl;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 34px;
+        text-align: right;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+      }
+
+      button {
+        width: 375px;
+        height: 56px;
+        padding: 16px 32px 16px 32px;
+        gap: 16px;
+        border-radius: 100px;
+        background-color: #1b6485;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Almarai;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 34px;
+        @media screen and (max-width: 527px) {
+          width: 342px;
+          height: 56px;
+          padding: 16px;
+          gap: 16px;
+          margin: 0 auto;
+          border-radius: 100px;
+        }
+      }
+    }
+
+    .journal-posts-content-img {
+      width: 50%;
+      height: 100%;
+      gap: 0px;
+      border-radius: 16px 0px 0px 0px;
+      border-radius: 16px;
+      @media screen and (max-width: 768px) {
+        width: 100%;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+        max-height: 450px;
+        border-radius: 16px;
+      }
+    }
+  }
+}

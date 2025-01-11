@@ -1,0 +1,116 @@
+.alameed-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-bottom: 100px;
+  .alameed-section-head {
+    width: 100%;
+    font-family: Almarai;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 65px;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    p {
+      span {
+        color: #52a0bb;
+      }
+      @media screen and (max-width: 768px) {
+        font-size: 30px;
+        line-height: 45px;
+      }
+    }
+  }
+  .alameed-section-content {
+    width: 100%;
+    display: flex;
+    gap: 64px;
+    @media screen and (max-width: 1024px) {
+      flex-direction: column;
+      gap: 24px;
+    }
+    .alameed-img-box {
+      width: 50%;
+
+      border-radius: 16px;
+      @media screen and (max-width: 1024px) {
+        width: 100%;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        max-height: 840px;
+        border-radius: 16px;
+      }
+    }
+    .alameed-text-content {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      position: relative;
+      @media screen and (max-width: 1024px) {
+        width: 100%;
+      }
+      &::before {
+        content: "";
+        font-size: 3rem;
+        width: 8px;
+        height: 100%;
+        background-color: #1b6485;
+        color: #aaa;
+        font-weight: bold;
+        position: absolute;
+        @media screen and (max-width: 768px) {
+          width: 4px;
+        }
+      }
+
+      direction: rtl;
+      .alameed-text {
+        //styleName: Web/Body Large;
+        font-family: Almarai;
+        margin-right: 5px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30.6px;
+        text-align: right;
+        padding-right: 16px;
+        @media screen and (max-width: 768px) {
+          //styleName: Mobile/Body;
+          font-family: Almarai;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 27.2px;
+          text-align: right;
+        }
+
+        span {
+          font-size: 2rem;
+          color: #aaa;
+          font-weight: bold;
+        }
+      }
+      .alameed-name {
+        //styleName: Web/Heading 5;
+        font-family: Almarai;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 24px;
+        text-align: right;
+        padding-right: 16px;
+        @media screen and (max-width: 768px) {
+          //styleName: Mobile/Heading 4;
+          font-family: Almarai;
+          font-size: 24px;
+          font-weight: 700;
+          line-height: 36px;
+          text-align: right;
+        }
+      }
+    }
+  }
+}

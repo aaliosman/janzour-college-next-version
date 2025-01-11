@@ -1,0 +1,104 @@
+.college-statistics-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+  .statistics-head {
+    width: 100%;
+    font-family: Almarai;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 65px;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    p {
+      span {
+        color: #52a0bb;
+      }
+      @media screen and (max-width: 768px) {
+        font-size: 30px;
+        line-height: 45px;
+      }
+    }
+  }
+
+  .statistics-text {
+    font-family: Almarai;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30.6px;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    @media screen and (max-width: 768px) {
+      font-size: 16px;
+      line-height: 27.2px;
+    }
+  }
+
+  .statistics {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-direction: row-reverse;
+    @media screen and (max-width: 1024px) {
+      flex-wrap: wrap;
+    }
+
+    .sigle-statistic {
+      width: 395px;
+      height: 208px;
+      padding: 24px 0px 0px 0px;
+      display: flex;
+      justify-content: center;
+      flex-direction: row-reverse;
+      align-items: center;
+      gap: 24px;
+      opacity: 0px;
+      @media screen and (max-width: 768px) {
+        width: 300px;
+      }
+      @media screen and (max-width: 425px) {
+        width: 90%;
+        margin: 0 auto;
+        justify-content: space-between;
+      }
+
+      .statistic-info {
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        gap: 12px;
+
+        .statistic-number {
+          font-family: Almarai;
+          font-size: 50px;
+          font-weight: 700;
+          line-height: 65px;
+          text-align: center;
+          text-underline-position: from-font;
+          text-decoration-skip-ink: none;
+          @media screen and (max-width: 768px) {
+            font-size: 40px;
+          }
+        }
+
+        .statistic-text {
+          font-family: Almarai;
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 34px;
+          text-align: center;
+          text-underline-position: from-font;
+          text-decoration-skip-ink: none;
+          @media screen and (max-width: 768px) {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}

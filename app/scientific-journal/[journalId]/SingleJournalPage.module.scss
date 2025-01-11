@@ -1,0 +1,185 @@
+.single_journal_page {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  padding-left: 64px;
+  padding-right: 64px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  gap: 48px;
+  @media screen and (max-width: 1024px) {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .main_content {
+    width: 100%;
+    display: flex;
+    gap: 32px;
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+    }
+
+    .content {
+      width: 50%;
+      max-height: 1100px;
+      display: flex;
+      flex-direction: column;
+      gap: 48px;
+      @media screen and (max-width: 768px) {
+        width: 100%;
+      }
+
+      .content_head {
+        width: 100%;
+        padding: 12px 16px 12px 16px;
+        gap: 32px;
+        border-radius: 16px;
+        border: 1px;
+        direction: rtl;
+        display: flex;
+        align-items: center;
+        box-shadow: 0px 0px 6px 0px #80808033;
+        p {
+          font-family: Almarai;
+          font-size: 20px;
+          font-weight: 700;
+          line-height: 34px;
+          text-align: right;
+        }
+      }
+
+      .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #9e9e9eee;
+        .folder_title {
+          font-family: Almarai;
+          font-size: 60px;
+          font-weight: 700;
+          line-height: 78px;
+          text-align: center;
+          @media screen and (max-width: 768px) {
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 56px;
+            text-align: center;
+          }
+        }
+        .folder_number {
+          font-family: Almarai;
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 34px;
+          text-align: center;
+          @media screen and (max-width: 768px) {
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 34px;
+            text-align: center;
+          }
+        }
+
+        .date {
+          font-family: Almarai;
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 34px;
+          text-align: center;
+          @media screen and (max-width: 768px) {
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 34px;
+            text-align: center;
+          }
+        }
+      }
+
+      .downloads {
+        width: 100%;
+        height: 100%;
+        max-height: 500px;
+        overflow: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+
+        .single_download_box {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          padding: 20px 32px 20px 32px;
+          gap: 0px;
+          border-radius: 100px;
+          border: 1px solid #9e9e9eee;
+
+          .author_name {
+            font-family: Almarai;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 30.6px;
+            text-align: left;
+            @media screen and (max-width: 768px) {
+              font-size: 14px;
+              font-weight: 400;
+              line-height: 24px;
+              text-align: right;
+            }
+          }
+
+          .download_title {
+            display: flex;
+            gap: 16px;
+            p {
+              font-family: Almarai;
+              font-size: 20px;
+              font-weight: 700;
+              line-height: 34px;
+              text-align: left;
+              @media screen and (max-width: 768px) {
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 30.6px;
+                text-align: right;
+              }
+            }
+          }
+        }
+      }
+
+      .img_box {
+        width: 50%;
+        @media screen and (max-width: 768px) {
+          width: 100%;
+        }
+        img {
+          width: 100%;
+          height: 50%;
+          min-height: 550px;
+          @media screen and (max-width: 768px) {
+            min-height: 300px;
+          }
+        }
+      }
+    }
+    .img_box {
+      width: 50%;
+      @media screen and (max-width: 768px) {
+        width: 100%;
+      }
+      img {
+        width: 100%;
+        height: 50%;
+        min-height: 550px;
+        @media screen and (max-width: 768px) {
+          min-height: 300px;
+        }
+      }
+    }
+  }
+}
