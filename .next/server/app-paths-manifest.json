@@ -1,0 +1,23 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/departments/electrical-electronic-engineering-department/page": "app/departments/electrical-electronic-engineering-department/page.js",
+  "/about/page": "app/about/page.js",
+  "/departments/chemical-environmental-engineering-department/page": "app/departments/chemical-environmental-engineering-department/page.js",
+  "/e-services/student-services/page": "app/e-services/student-services/page.js",
+  "/general-registrar/graduates-office/page": "app/general-registrar/graduates-office/page.js",
+  "/departments/it-department/page": "app/departments/it-department/page.js",
+  "/departments/general-department/page": "app/departments/general-department/page.js",
+  "/departments/mechanical-engineering-department/page": "app/departments/mechanical-engineering-department/page.js",
+  "/important-links/college-graduate-studies/page": "app/important-links/college-graduate-studies/page.js",
+  "/important-links/calendar/page": "app/important-links/calendar/page.js",
+  "/important-links/college-regulations/page": "app/important-links/college-regulations/page.js",
+  "/page": "app/page.js",
+  "/registration-and-admission/page": "app/registration-and-admission/page.js",
+  "/scientific-affairs/page": "app/scientific-affairs/page.js",
+  "/departments/petroleum-engineering-department/page": "app/departments/petroleum-engineering-department/page.js",
+  "/scientific-journal/page": "app/scientific-journal/page.js",
+  "/general-registrar/student-affairs/page": "app/general-registrar/student-affairs/page.js",
+  "/scientific-journal/[journalId]/page": "app/scientific-journal/[journalId]/page.js",
+  "/general-registrar/study-and-exams/page": "app/general-registrar/study-and-exams/page.js"
+}
