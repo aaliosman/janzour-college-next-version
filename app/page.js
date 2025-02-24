@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <main>
       <>
-        <h1>Test Auto Deployment From Git Repo</h1>
+        <h1>Test Auto Deployment From Git Repo: Hallo Test</h1>
         <AboutCollegeSection />
         <CollegeStatisticsSection />
         <JournalPostsSection />
